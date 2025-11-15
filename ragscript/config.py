@@ -13,7 +13,7 @@ class Settings:
 
     gemini_api_key: str
     gemini_model: str = "gemini-2.0-flash"
-    embedding_model: str = "sentence-transformers/all-MiniLM-L6-v2"
+    embedding_model: str = "sentence-transformers/paraphrase-multilingual-mpnet-base-v2"
     search_region: str = "vi-vn"
     user_agent: str = (
         "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
